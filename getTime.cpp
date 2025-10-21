@@ -77,7 +77,7 @@ int main(){
     startTime = getTimeInMicroSeconds();
 
     //mergeSort(arr,0,n-1);
-    selectionSort(arr,n);
+    mergeSort(arr,n);
 
     endTime = getTimeInMicroSeconds();
 
