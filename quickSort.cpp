@@ -10,7 +10,7 @@ int partition(int arr[],int low , int high){
 	int i = low-1 ;
 	for(int j=low ; j<=high-1 ; j++){
 		if(arr[j]<pivot){
-			i++ ;
+			i++  ;
 			swap(arr,i ,j) ;
 		}
 	}
