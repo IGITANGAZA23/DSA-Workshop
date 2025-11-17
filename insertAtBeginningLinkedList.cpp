@@ -25,6 +25,13 @@ void insertAtBeginning(Node*& head, Node* newNode) {
     newNode->next = head;
     head = newNode;
 }
+void deleteAtBeginning(Node*head){
+	if(head==NULL) return NULL ;
+	Node*temp = head ;
+	head = temp->next ;
+	delete temp ;
+	return head ;
+}
 
 int main() {
     Node* head = new Node(10);
